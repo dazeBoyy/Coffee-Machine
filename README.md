@@ -66,17 +66,11 @@ docker-compose up --build
 
 ```json
 {
-  "name": "YourDrink",
-  "ingredients": [
-    {
-      "name": "Coffee Beans",
-      "quantity": 50
-    },
-    {
-      "name": "Water",
-      "quantity": 10
-    }
-  ]
+  "name": "espresso",
+  "ingredients": {
+    "water": 50,
+    "coffee": 20
+  }
 }
 ```
 
